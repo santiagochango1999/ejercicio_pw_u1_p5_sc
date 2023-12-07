@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+    grid-template-rows:  repeat(3,50px);
+    padding-bottom: 35px;
+    margin: 100px 100px;    
+}
+button{
+    right: 100px;
+    width: 65px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 2px;
+    font-size: 0;
+    border: none;
+
+    
+}
+.but:hover{
+   background: #63685A; 
+   font-size: 30px;
+
+}
+
+
+
+
